@@ -1,4 +1,4 @@
-var ResponseCodesEnum = {
+let ResponseCodesEnum = {
     SUCCESS: 200,
     BADREQUEST: 400,
     NOTFOUND: 404,

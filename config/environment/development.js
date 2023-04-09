@@ -1,10 +1,12 @@
 'use strict';
+
 // ==================== //
 // Development Settings //
 // ==================== //
+
 module.exports = {
   mongo: {
-    db_url: process['env']['dev_db_url'],
+    db_url: process['env']['DB_URL'],
     
     options: {
       useNewUrlParser: true,
@@ -12,7 +14,4 @@ module.exports = {
     },
     debug: false,
   },
-  client: `http://localhost:3000`,
-  server: `http://46.226.110.43:4004`,
-  standardPhone: '+923170000067'
 };
